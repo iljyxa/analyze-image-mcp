@@ -1,0 +1,41 @@
+{
+  "name": "analyze-image-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that lets text-only LLMs analyze images via a separate OpenAI-compatible vision model",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "opencode",
+    "vision",
+    "model-context-protocol"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "private": true,
+  "bin": {
+    "analyze-image-mcp": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iljyxa/analyze-image-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iljyxa/analyze-image-mcp/issues"
+  },
+  "homepage": "https://github.com/iljyxa/analyze-image-mcp#readme",
+  "author": "iljyxa"
+}
